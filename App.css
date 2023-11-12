@@ -1,0 +1,496 @@
+body{
+  margin: 0px;
+    background-color: #404040;
+}
+
+.base_top{
+  background-color: #2C2C2C;
+  padding: 5px;
+}
+.btn{
+font-size: 14px;
+margin-left: 8px;
+border: none;
+background-color: #2C2C2C;
+color: white;
+font-family: monospace;
+}
+
+.div_arquivo{
+  position: absolute;
+  top: 1%;
+  width: 250px;
+  background-color: black;
+}
+.div_editar{
+  position: absolute;
+  top: 1%;
+  left: 9%;
+  width: 250px;
+  background-color: black;
+  }
+  .div_exibir{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;
+    left: 15%;
+  }
+  .div_inserir{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;
+    left: 22%;
+  }
+  .div_formatar{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;
+    left: 30%;
+  }
+  .div_estilos{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;
+    left: 38%;
+  }
+  .div_tabela{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;
+    left: 45%;
+  }
+  .div_formulario{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;
+    left: 52%;
+  }
+  .div_ferramentas{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%; left: 62%;
+  }
+  .div_janela{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%; left: 71%;
+  }
+  .div_ajuda{
+    position: absolute;
+    width: 250px;
+    background-color: black;
+    top: 1%;right: 0%;
+  }
+.btn_base{
+    background-color: black;
+  color: white;
+  width: 250px;
+  height: 20px;
+  margin: none;
+  border: none;
+  text-align: left;
+  font-family: arial;
+}
+.btn_base:hover{
+background-color: #2C2C2C;
+}
+
+.espaço_folha{
+    margin: auto;
+    margin-left: 230px;
+  background-color: #404040;
+  padding: 5px;
+}
+.base_top2{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.opçao_top2{
+  border-left-color: black;
+  margin:5px;
+  margin-right: 2px;
+  width: 36px;
+  height: 20px;
+  }
+  .opçao_top2:hover{
+    background-color: #545454;
+    border-radius: 2px;
+  }
+  
+
+.div_sub_NOVO,
+.div_sub_ASSISTENTES,
+.div_sub_MODELOS,
+.div_sub_EXPORTARCM,
+.div_sub_ENVIAR,
+.div_sub_ASSINATURADG,
+.div_sub_COLAR_ESP,
+.div_sub_MODOSLC,.div_sub_ZOOM,
+.div_sub_REGISTRAR_ALT,
+.div_sub_ANOTAÇAO,
+.div_sub_REFERENCIA,
+.div_sub_OBJETO_OLE,
+.div_sub_BARRA_FERRAMENTAS,
+.div_sub_REGUAS,.div_sub_BARRA_ROLAGEM,
+.div_sub_GRADES_LINHAS{
+  width: 200px;
+}
+
+.div_sub_NOVO{
+  position: absolute;
+    left: 23.5%;
+  top: 1%;
+}
+.div_sub_ASSISTENTES{
+  position: absolute;
+  left: 23.5%;
+  top: 20%;
+}
+.div_sub_MODELOS{
+  position: absolute;
+  left: 23.5%;
+  top: 24%;
+}
+.div_sub_EXPORTARCM{
+  position: absolute;
+  left: 23.5%;
+  top: 55%;
+}
+.div_sub_ENVIAR{
+  position: absolute;
+  left: 23.5%;
+  top: 55%;
+}
+.div_sub_ASSINATURADG{
+  position: absolute;
+  left: 23.5%;
+  top: 86%;
+}
+
+.div_sub_COLAR_ESP{
+  position: absolute;
+  left: 32%;
+  top: 24%;
+}
+
+.div_sub_MODOSLC{
+  position: absolute;
+  left: 32%;
+  top: 31.5%;
+}
+
+.div_sub_REGISTRAR_ALT{
+  position: absolute;
+  left: 32%;
+  top: 40%;
+}
+.div_sub_ANOTAÇAO{
+  position: absolute;
+  left: 32%;
+  top: 55%;
+}
+.div_sub_REFERENCIA{
+  position: absolute;
+  left: 32%;
+  top: 62%;
+}
+.div_sub_OBJETO_OLE{
+  position: absolute;
+  left: 32%;
+  top: 74%;
+}
+
+.div_sub_BARRA_FERRAMENTAS{
+  position: absolute;
+  left: 38%;
+  top: 1%;
+}
+.div_sub_REGUAS{
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+.div_sub_BARRA_ROLAGEM{
+  position: absolute;
+  left: 38%;
+  top: 24%;
+}
+.div_sub_GRADES_LINHAS{
+  position: absolute;
+  left: 38%;
+  top: 28%;
+}
+.div_sub_ZOOM{
+  position: absolute;
+  left: 38%;
+  top: 62%;
+}
+.btn_sub{
+ background-color: #212121;
+  color: white;
+  width: 230px;
+  height: 20px;
+  margin: none;
+  border: none;
+  text-align: left;
+  font-family: arial; 
+}
+.btn_sub:hover{
+  background-color: black;
+}
+
+.placa1,.placa2,.placa3,.placa4,
+.placa5,.placa6,.placa7,.placa8,
+.placa9,.placa10,.placa11,.placa12,
+.placa13,.placa14,.placa15,.placa16,
+.placa17,.placa18,.placa19,.placa20,
+.placa21,.placa22,.placa23,.placa23,
+.placa24,.placa25,.placa26,.placa27,
+.placa28,.placa29,.placa30,.placa31{
+  position: absolute;
+  background-color: #434343;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 4px;
+  top: 11.8%;
+  display: none;
+}
+
+.placa32,
+.placa33,.placa34,.placa35,.placa36,.placa37,
+.placa38,.placa39,.placa40,.placa41,.placa42,
+.placa43,.placa44,.placa45,.placa46,.placa47,
+.placa48,.placa49,.placa50{
+   position: absolute;
+  background-color: #434343;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 4px;
+  top: 18.8%;
+  display: none;
+}
+.placa1,.placa33{
+left: 0%;
+}
+.placa2{
+  left: 2%;
+}
+.placa3,.placa34{
+  left: 6%;
+}
+.placa4,.placa6{
+  left: 5%;
+}
+.placa5{
+  left: 12%;
+}
+.placa7{
+  left: 17%;
+}
+.placa8{
+  left: 19%;
+}
+.placa9{
+  left: 22%;
+}
+.placa10{
+  left: 6%;
+}
+.placa11{
+  left: 29%;
+}
+.placa12{
+  left: 33%;
+}
+.placa13{
+  left: 31%;
+}
+.placa14{
+  left: 35%;
+}
+.placa15{
+  left: 36%;
+}
+.placa16,.placa35{
+  left: 44%;
+}
+.placa17,.placa36,.placa37{
+  left: 50%;
+}
+.placa18{
+  left: 54%;
+}
+.placa19,.placa20,.placa38,.placa42{
+  left: 55%;
+}
+.placa21,.placa39{
+  left: 58%;
+}
+.placa22,.placa40{
+  left: 59%;
+}
+.placa23,.placa41{
+  left: 62%;
+}
+.placa24{
+  left: 68%;
+}
+.placa25,.placa43{
+  left: 72%;
+}
+.placa26,.placa44{
+  right: 15%;
+}
+.placa27,.placa30,.placa45{
+  right: 8%;
+}
+.placa28,.placa46,.placa47{
+  right: 5%;
+}
+.placa29,.placa31,.placa32,.placa48,.placa49,.placa50{
+  right: 0%;
+}
+
+.base_top3{
+  display: flex;
+  flex-wrap: wrap;
+}
+#select_base3{
+width: 180px;
+background-color: #444444;
+color: white;border-radius: 5px;
+height: 25px;margin: 5px;
+font-family: monospace;
+}
+#select_base3_font{
+  width: 60px;
+background-color: #444444;
+color: white;border-radius: 5px;
+height: 25px;margin: 5px;
+font-family: monospace;
+}
+.option_button{
+  background-color: #1E1E1E;
+  font-family: arial;
+}
+textarea{
+  margin: auto;
+  width: 500px;
+  outline: none;
+  height: 508px;
+  overflow: none;resize: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.folha_atual{
+   margin: auto;
+  width: 480px;
+  outline: none;
+  background-color: white;
+  height: 508px;
+  overflow: none;
+
+}
+.paragrafo_especial{
+  width: 200px;
+  height: 25px;border-radius: 5px;
+  background-color: #333333;
+  margin: 5px;
+}
+.pt_especial{
+  width: 100px;
+  height: 25px;border-radius: 5px;
+  background-color: #333333;
+  margin: 5px;
+}
+.btn_especial{
+  width: 30px;
+  height: 25px;
+  float: right;
+  border-radius:  0px;
+  border: none;
+  background-color: #4A4A4A;
+}
+.base_paragrafo{
+  width: 200px;
+  position: absolute;
+  left: 1%;top:13%;
+  border-radius: 4px;
+  background-color: #393939;
+}
+.base_pt{
+  width: 80px;
+  position: absolute;
+  left: 25.6%;top:13%;
+  border-radius: 4px;
+  background-color: #393939;
+  overflow: scroll;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.button_opt_parag{
+  width: 200px;
+  border:none;color: white;
+  text-align: start;
+   background-color: #393939;
+}
+.button_opt_parag:hover{
+  background-color: #414141;
+}
+.base_cores{
+  position: absolute;
+  left: 56.5%;
+  top: 17%;
+  background-color: #393939;
+  border-radius: 2px 2x 5px 5px;
+  width: 170px;
+  padding: 5px;
+  height: 300px;
+}
+.cores_pixel{
+  width: 15px;
+  height: 15px;
+  border-radius: 1px;
+  margin: 1px;
+  border: none;
+}
+.seleçao_cores{
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+  margin-top: 6px;
+}
+
+.cor_balde{
+  position: absolute;
+  background-color:black;
+  width: 132px;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  top: 18%;
+  left: 60%;
+}
+.opt_balde{
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+}
+.sobre_balde{
+  display: flex;
+  flex-wrap: wrap;
+}
